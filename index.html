@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/programming.png" type="image/x-icon">
+    <title>ReTro</title>
+</head>
+
+<body class="font-mulish">
+    <!-- Header section -->
+    <header class="navbar max-w-7xl mx-auto lg:mt-5">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>Write</a></li>
+                    <li><a>Add User</a></li>
+                    <li><a>Flags</a></li>
+                </ul>
+            </div>
+            <a class="font-black text-4xl">ReTro</a>
+        </div>
+        <!-- <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li><a>Item 3</a></li>
+            </ul>
+        </div> -->
+        <div class="navbar-end gap-3">
+            <div class="tooltip tooltip-bottom border-2 rounded-full lg:visible invisible" data-tip="Home">
+                <a class="btn rounded-full"><img src="images/home.png" alt=""></a>
+            </div>
+            <div class="tooltip tooltip-bottom border-2 rounded-full lg:visible invisible" data-tip="Write">
+                <a class="btn rounded-full"><img src="images/pen (1).png" alt=""></a>
+            </div>
+            <div class="tooltip tooltip-bottom border-2 rounded-full lg:visible invisible" data-tip="User">
+                <a class="btn rounded-full"><img src="images/add-user (1).png" alt=""></a>
+            </div>
+            <div class="tooltip tooltip-bottom border-2 rounded-full lg:visible invisible" data-tip="Flags">
+                <a class="btn rounded-full"><img src="images/flags.png" alt=""></a>
+            </div>
+            <a class="btn rounded-full bg-[#797DFC] text-white font-bold">Sign In</a>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="max-w-7xl mx-auto lg:mt-12 mt-3">
+        <!-- banner section -->
+        <div
+            class="grid grid-cols-1 lg:grid-cols-2 items-center bg-[#12132D] lg:rounded-[32px] lg:gap-32 lg:p-36 px-5 py-16 lg:bg-[url('images/bgbanner.png')] bg-cover bg-bottom">
+            <div>
+                <h1 class="text-5xl font-black text-white">Welcome to the <span class="text-[#797DFC]">ReTro</span>
+                    Forum</h1>
+                <p class="mt-5 text-[#FFFFFFCC] text-xl">Share your favorite opinion and win and wp forum coffee mug!
+                </p>
+                <div class="mt-8">
+                    <input class="py-3 pl-3 pr-28 rounded-[50px]" type="text" placeholder="Search here anything">
+                    <button class="btn rounded-full bg-[#797DFC] text-white -ml-20 font-bold">Search</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 mt-8 lg:mt-0 lg:grid-cols-2 gap-10 p-10 rounded-[32px] bg-white">
+                <div class="text-xl font-medium">
+                    <p>Registered</p>
+                    <p>Forum</p>
+                    <p>Topics</p>
+                    <p>Replies</p>
+                </div>
+                <div class="text-xl font-medium">
+                    <p>01</p>
+                    <p>05</p>
+                    <p>01</p>
+                    <p>01</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer footer-center bg-[#ededef] mt-28 lg:px-36 px-16 lg:py-28 py-20">
+        <aside>
+            <p class="font-black text-[#12132D] text-4xl">ReTro</p>
+            <p class="mt-4 text-[#12132DB3]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                roots <br> in a piece of classical Latin literature from 45 BC</p>
+        </aside>
+        <nav>
+            <div class="grid grid-flow-col gap-4">
+                <a href=""><img src="images/twitter.png" alt=""></a>
+                <a href=""><img src="images/facebook-app-symbol.png" alt=""></a>
+                <a href=""><img src="images/instagram.png" alt=""></a>
+                <a href=""><img src="images/github-logo.png" alt=""></a>
+            </div>
+        </nav>
+        <div class="border-2 w-full"></div>
+        <div>
+            <p class="text-[#12132D80]">2017, All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
